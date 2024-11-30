@@ -1,0 +1,37 @@
+/*selector universal*/
+*{
+    /*background-color: rgb(79, 158, 182) ;*/
+}
+/*selector de tipo*/
+body{
+    font-family: "Imperial Script", cursive;
+    font-size: 12px;
+}
+/* selector de clase*/
+.titulo1{color: chartreuse;
+    text-align: center;
+    text-decoration: underline;
+}
+/* selector de id */
+#parrafo{
+    color: black;
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.barranavegacion{
+    background-color: #0B2F9F;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.navenlace{
+    display: inline-block;
+    color: coral;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.navenlace:hover{
+    background-color: black;
+}

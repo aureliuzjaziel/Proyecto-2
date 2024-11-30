@@ -1,0 +1,34 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    height: 200px;
+}
+.caja{
+    background-color: rgb(245, 235, 98);
+    text-align: center;
+    padding: 10px;
+    color: blueviolet;
+}
+.caja1{
+    grid-area: 1/1/2/4;
+    background-color: coral;
+    color: black;
+}
+.caja2{
+    grid-area: 2/1/4/2 ;
+    background-color: rgb(126, 197, 170);
+    color: black;
+}
+.caja3{
+    grid-area: 2/3/3/4;
+    background-color: aqua;
+    
+}
+
+.caja4{
+    grid-area: 3/2/4/4;
+    background-color: aqua;
+    
+}
